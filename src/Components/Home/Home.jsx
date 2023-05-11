@@ -5,9 +5,6 @@ import HomeImg from "../../Images/My project.png";
 const Home = () => {
   return (
     <div className="home">
-      <div className="home-img">
-        <img src={HomeImg} alt="Lambo-Home" />
-      </div>
 
       <div className="home-dis">
         {/* <div className="trust">
@@ -25,9 +22,13 @@ const Home = () => {
           </p>
           <div className="view">
             <span>View all cars</span>
-            <i className="fa-regular fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </div>
         </div>
+      </div>
+
+      <div className="home-img">
+        <img src={HomeImg} alt="Lambo-Home" />
       </div>
     </div>
   );
