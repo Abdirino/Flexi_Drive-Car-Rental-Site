@@ -1,8 +1,8 @@
 import './App.css'
 import About from './Components/About/About';
-import Application from './Components/Application/Application';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
+import Listings from './Components/Listings/Listings';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      <Application />
       <About />
+      <Listings />
       <Footer />
     </div>
   );

@@ -32,21 +32,19 @@ const About = () => {
 
         <div className="reason">
           <i class="fa-solid fa-user-check"></i>
-          <h2>Easy and Fast Booking</h2>
+          <h2>Many PickUp Location</h2>
           <p>
-            Completely carinate e business testing process whereas fully
-            researched customer service. Globally extensive content with
-            quality.
+            Enthusiastically magnetic initiatives with cross-platform sources.
+            Dynamically target testing procedures through effective.
           </p>
         </div>
 
         <div className="reason">
           <i class="fa-solid fa-user-check"></i>
-          <h2>Easy and Fast Booking</h2>
+          <h2>Customer Satisfaction</h2>
           <p>
-            Completely carinate e business testing process whereas fully
-            researched customer service. Globally extensive content with
-            quality.
+            Globally user centric method interactive. Seamlessly revolutionize
+            unique portals corporate collaboration.
           </p>
         </div>
       </div>

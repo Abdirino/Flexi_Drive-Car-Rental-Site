@@ -39,7 +39,7 @@
 }
 .content p{
     font-size: 1.2rem;
-    padding: 35px;
+    padding: 35px 0;
 }
 
 .reasons{
@@ -54,7 +54,7 @@
     align-items: center;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
     padding: 20px 15px 40px 15px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 8px;
 }
 .reason i{
@@ -90,4 +90,10 @@
 }
 .reason:hover p, .reason:hover h2{
     color: white;
+}
+
+@media (max-width: 1220px) {
+    .reasons{
+        flex-wrap: wrap;
+    }
 }

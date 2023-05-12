@@ -1,5 +1,9 @@
 import React from "react";
 import "./footer.css";
+import creditCard1 from '../../Images/icons8-credit-card-48 (1).png';
+import creditCard2 from '../../Images/icons8-credit-card-48.png';
+import creditCard3 from '../../Images/icons8-mastercard-48.png';
+import creditCard4 from '../../Images/icons8-visa-48.png';
 
 const Footer = () => {
   return (
@@ -66,7 +70,12 @@ const Footer = () => {
 
     <div className="copy-write">
       <p>Copyright © 2021 FlexiDrive. All rights reserved.</p>
-      <div className="pay-methods"></div>
+      <div className="pay-methods">
+        <img src={creditCard1} alt="" />
+        <img src={creditCard2} alt="" />
+        <img src={creditCard3} alt="" />
+        <img src={creditCard4} alt="" />
+      </div>
     </div>
     </>
     

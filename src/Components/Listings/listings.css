@@ -1,0 +1,64 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.listings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    background: rgba(143, 183, 199, 0.4);
+}
+.car-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.car-logo .logo{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    align-items: center;
+    /* padding: 10px 20px; */
+    width: 150px; height: 70px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+}
+.car-logo .logo img{
+    width: 40px; height: 40px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 6px;
+}
+.car-logo .logo:hover{
+    background: rgb(99, 140, 176);
+}
+.car-logo .logo:hover img{
+    background: rgb(255, 255, 255);
+}
+
+.car-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-list .car{
+    display: flex;
+    flex: 1 1 450px;
+    flex-direction: column;
+    padding: 18px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin: 12px;
+}
+.stars i{
+    color: goldenrod;
+}
