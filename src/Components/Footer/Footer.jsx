@@ -3,7 +3,9 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <>
+
+      <div className="footer">
       <div className="about-company">
         <h2>About Company</h2>
         <div></div>
@@ -61,6 +63,15 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <div className="copy-write">
+      <p>Copyright © 2021 FlexiDrive. All rights reserved.</p>
+      <div className="pay-methods"></div>
+    </div>
+    </>
+    
+    
+    
   );
 };
 

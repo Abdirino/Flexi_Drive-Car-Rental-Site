@@ -1,0 +1,93 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head h1{
+    font-size: 2.6rem;
+    padding: 8px;
+}
+.head div{
+    width: 120px;
+    height: 4px;
+    background: red;
+    margin: 3px;
+}
+.head div:nth-child(3){
+    width: 80px;
+    height: 4px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    font-size: 1.2rem;
+    padding: 35px;
+}
+
+.reasons{
+    display: flex;
+    flex-direction: row;
+}
+.reasons .reason{
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    padding: 20px 15px 40px 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+.reason i{
+    padding: 30px 150px;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin: 10px;
+    color: white;
+}
+.reason:nth-child(1) i{
+    background: #000000;
+}
+.reason:nth-child(2) i{
+    background: #0689cb;
+}
+.reason:nth-child(3) i{
+    background: #da6906;
+}
+.reason h2{
+    font-family: 1.3rem;
+    padding: 8px;
+}
+.reason p{
+    font-size: 1rem;
+    padding: 8px;
+}
+.reason:hover{
+    background: #000000;
+}
+.reason:hover i{
+    background: #ffffff;
+    color: black;
+}
+.reason:hover p, .reason:hover h2{
+    color: white;
+}
