@@ -1,0 +1,68 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.facts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-image: url(../../Images/Facts\ BG.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+.Fact{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 80px;
+    gap: 2rem;
+    margin: 40px 0;
+    text-align: start;
+}
+.fact{
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.fact:hover{
+    transform: translateY(-10px);
+}
+.fact:hover .icon i{
+    background: rgb(48, 144, 171);
+}
+.icon i{
+    padding: 20px 35px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 36px;
+}
+.detail{
+    width: 120px;
+    padding: 10px;
+}
+.detail p{
+    font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+    .Fact{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

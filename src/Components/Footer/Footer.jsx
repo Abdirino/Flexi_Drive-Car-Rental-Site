@@ -69,7 +69,7 @@ const Footer = () => {
     </div>
 
     <div className="copy-write">
-      <p>Copyright © 2021 FlexiDrive. All rights reserved.</p>
+      <p>Copyright © 2021 FlexiDrive. All rights reserved. Engineered By Abdirino</p>
       <div className="pay-methods">
         <img src={creditCard1} alt="" />
         <img src={creditCard2} alt="" />
