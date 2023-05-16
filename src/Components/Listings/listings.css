@@ -68,13 +68,14 @@
 .car .image{
     border-radius: 8px;
     overflow: hidden;
+    /* height: 300px; */
 }
 .car .image img{
     width: 100%; height: 100%;
     object-fit: cover;
 }
 .car:hover .image img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .stars{
     display: flex;
@@ -87,7 +88,7 @@
 .stars i{
     color: goldenrod;
 }
-.price{
+.car .price{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,6 +144,7 @@
 
 .view{
     color: white;
+    margin: 22px 0;
 }
 
 

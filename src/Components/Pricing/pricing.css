@@ -5,6 +5,8 @@
     text-decoration: none;
     list-style: none;
 }
+/* Facts By the numbers Section */
+
 .facts{
     width: 100%;
     display: flex;
@@ -21,7 +23,7 @@
 .Fact{
     display: flex;
     flex-direction: row;
-    flex: 1 1 80px;
+    flex: 1 1 8r0px;
     gap: 2rem;
     margin: 40px 0;
     text-align: start;
@@ -41,7 +43,7 @@
     transform: translateY(-10px);
 }
 .fact:hover .icon i{
-    background: rgb(48, 144, 171);
+    background: #3090ab;
 }
 .icon i{
     padding: 20px 35px;
@@ -58,11 +60,115 @@
     font-weight: bold;
 }
 
+/* Pricing Section */
+
+.pricing{
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prices{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 200px;
+}
+.prices .pricer{
+    padding: 10px 12px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #3090ab;
+    border-radius: 8px;
+}
+.prices .price{
+    padding: 10px 12px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    background: white;
+    border-radius: 8px;
+}
+
+/* Application section*/
+.application{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 500px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1.4rem 0.8rem;
+    margin: 2rem 5rem;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 500px;
+    text-align: start;
+    padding: 20px 5px 20px 12px;
+}
+.details h1{
+    font-size: 47px;
+}
+
+.application .image{
+    width: 900px;
+}
+.application .image img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.store-btn{
+    background: red;
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    cursor: pointer;
+}
+.store-icon i{
+    font-size: 30px;
+}
+.store-btn:nth-child(2){
+    background: rgba(108, 107, 107, 0.4);
+}
+
+
+
+
+/* Media Queries */
 @media (max-width: 1100px) {
     .Fact{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .application{
+        flex-wrap: wrap;
+        padding: 1.4rem 0.8rem;
+        margin: 1rem 2rem;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        width: 500px;
+        text-align: start;
+        padding: 20px 5px 20px 12px;
+    }
+    .details h1{
+        font-size: 37px;
+    }
+    .store-btn p {
+        display: none;
     }
 }

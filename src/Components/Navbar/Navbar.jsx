@@ -3,12 +3,12 @@ import "./navbar.css";
 import webIcon from "../../Images/FlexiDrive Website-icon.png";
 
 const Navbar = () => {
-  const nav = document.querySelector(".nav-links");
+  // const nav = document.querySelector(".nav-links");
 
-  document.querySelector(".nav-menu").onclick = () => {
-    nav.classList.add("active");
-    nav.classList.remove("active");
-  };
+  // document.querySelector(".nav-menu").onclick = () => {
+  //   nav.classList.add("active");
+  //   nav.classList.remove("active");
+  // };
   function menuToggle() {
     const nav = document.querySelector(".nav-links");
 

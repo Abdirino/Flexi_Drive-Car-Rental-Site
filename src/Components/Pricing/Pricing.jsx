@@ -1,6 +1,8 @@
 import React from "react";
 import "./pricing.css";
 
+import StoreIMG from "../../Images/Flexi_Store IMG.png";
+
 const Pricing = () => {
   return (
     <>
@@ -56,8 +58,39 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="pricing">Pricing</div>
-      <div className="play-store">Pricing</div>
+      <div className="application">
+        <div className="details">
+          <h1>FlexiDrive User Friendly App Available</h1>
+          <p>
+            Appropriately monetize one-to-one interfaces rather than
+            cutting-edge Competently disintermediation backward.
+          </p>
+          <div className="buttons">
+            <span className="store-btn">
+              <div className="store-icon">
+                <i class="fa-brands fa-google-play"></i>
+              </div>
+              <div className="text">
+                <p>Get it on</p>
+                <h3>Google Play</h3>
+              </div>
+            </span>
+            <span className="store-btn">
+              <div className="store-icon">
+                <i class="fa-brands fa-app-store"></i>
+              </div>
+              <div className="text">
+                <p>Get it on</p>
+                <h3>App Store</h3>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div className="image">
+          <img src={StoreIMG} alt="" />
+        </div>
+      </div>
     </>
   );
 };
