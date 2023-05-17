@@ -14,7 +14,7 @@
   padding: 0.4rem;
   box-shadow: 0px 0.1em 0.2em rgba(0, 0, 0, 0.09),
     0px 0.4em 0.7em -0.1em rgba(0, 0, 0, 0.09);
-  background: white;
+  background: rgb(255, 255, 255);
   position: fixed;
   z-index: 1000;
 }
@@ -31,15 +31,20 @@
   gap: 2px;
   cursor: pointer;
 }
+.nav-icon {
+  color: red;
+  display: none;
+}
 .logo h1 {
   font-size: 40px;
   font-family: "Bree Serif", serif;
+  color: black;
 }
 .logo h1 span {
   color: red;
   font-family: "Bree Serif", serif;
 }
-.nav-links {
+.nav-menu {
   display: flex;
   flex-direction: row;
 }
@@ -106,35 +111,33 @@
 .signUp:active {
   box-shadow: 0;
 }
-.nav-menu {
-  color: red;
-  display: none;
-}
 
 @media (max-width: 1100px) {
   .header {
     padding: 0.6rem;
   }
-  .nav-menu {
+  .nav-icon {
     display: inline-flex;
     font-size: 33px;
     padding: 18px;
+    color: red;
   }
-  .nav-links {
+  .nav-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+    background: white;
     height: auto;
     position: absolute;
-    top: 0;
+    top: 85px;
     left: -110%;
     opacity: 0;
     align-items: stretch;
-    padding: 95px 0 30px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 35px 0 30px 0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
   }
-  .nav-links.active {
+  .nav-menu.active {
     left: 0;
     opacity: 1;
   }

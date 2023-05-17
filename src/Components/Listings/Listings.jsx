@@ -214,7 +214,7 @@ const Listings = () => {
           </div>
 
           <div className="price">
-            <p>NewYork, USA</p>
+            <p>USA</p>
             <h3>
               $450 <span>/per Day</span>
             </h3>

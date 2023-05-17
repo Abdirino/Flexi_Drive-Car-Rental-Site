@@ -4,7 +4,7 @@ import HomeImg from "../../Images/My project.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
 
       <div className="home-dis">
         {/* <div className="trust">

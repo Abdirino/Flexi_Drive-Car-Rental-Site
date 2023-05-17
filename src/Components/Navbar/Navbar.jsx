@@ -1,55 +1,84 @@
 import React from "react";
 import "./navbar.css";
 import webIcon from "../../Images/FlexiDrive Website-icon.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  // const nav = document.querySelector(".nav-links");
+  const [click, setClick] = React.useState(false);
 
-  // document.querySelector(".nav-menu").onclick = () => {
-  //   nav.classList.add("active");
-  //   nav.classList.remove("active");
-  // };
-  function menuToggle() {
-    const nav = document.querySelector(".nav-links");
-
-    document.querySelector(".nav-menu").onclick = () => {
-      nav.classList.add("active");
-      nav.classList.remove("active");
-    };
-  }
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
 
   return (
     <>
+      <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <div className="header">
-        <nav className="nav">
-          <div className="logo">
-            <i className="nav-menu fa-solid fa-bars" onClick={menuToggle}></i>
+        <nav className="nav" onClick={(e) => e.stopPropagation()}>
+          <NavLink className="logo">
+            <div className="nav-icon" onClick={handleClick}>
+              <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            </div>
             <img src={webIcon} alt="website icon" />
             <h1>
               <span>Flexi</span>Drive
             </h1>
-          </div>
+          </NavLink>
 
-          <ul className="nav-links">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              {" "}
-              <a href="#Home">Home</a>{" "}
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Home
+              </NavLink>
             </li>
             <li className="nav-item">
-              {" "}
-              <a href="#listings">About Us</a>{" "}
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                About Us
+              </NavLink>
             </li>
             <li className="nav-item">
-              {" "}
-              <a href="#about">Listings</a>{" "}
+              <NavLink
+                exact
+                to="/listings"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Listings
+              </NavLink>
             </li>
             <li className="nav-item">
-              {" "}
-              <a href="#blog">Blog</a>{" "}
+              <NavLink
+                exact
+                to="/blog"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Blog
+              </NavLink>
             </li>
             <li className="nav-item">
-              {" "}
-              <a href="#contact">Contact</a>{" "}
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
 
