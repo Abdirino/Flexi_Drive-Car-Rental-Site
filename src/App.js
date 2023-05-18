@@ -1,20 +1,23 @@
-import './App.css';
-import About from './Components/About/About';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
-import Listings from './Components/Listings/Listings';
-import Navbar from './Components/Navbar/Navbar';
-import Pricing from './Components/Pricing/Pricing';
+import "./App.css";
+import Home from "./pages/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./pages/About/About";
+import CarListing from "./pages/Car-Listing/CarListing";
+import Blog from "./pages/Blog/Blog";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Listings />
-      <Pricing />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="car-listing" element={<CarListing />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

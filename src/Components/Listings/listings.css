@@ -63,7 +63,7 @@
     cursor: pointer;
 }
 .car:hover .info h2{
-    color: rgb(55, 80, 102);
+    color: rgb(36, 109, 138);
 }
 .car .image{
     border-radius: 8px;

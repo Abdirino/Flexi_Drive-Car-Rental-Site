@@ -1,5 +1,6 @@
 import React from "react";
 import "./listings.css";
+import { Link } from "react-router-dom";
 import Tesla from "../../Images/icons8-tesla-64.png";
 import Mitsubishi from "../../Images/icons8-mitsubishi-50.png";
 import Jeep from "../../Images/icons8-jeep-50.png";
@@ -226,7 +227,9 @@ const Listings = () => {
         </div>
       </div>
       <div className="view">
-        <span>View all cars</span>
+        <Link to="/car-listing" style={{ color: "white" }}>
+          <span>View all cars</span>
+        </Link>
         <i className="fa-solid fa-arrow-right"></i>
       </div>
     </div>
