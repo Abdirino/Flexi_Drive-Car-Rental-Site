@@ -1,0 +1,38 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.blog{
+    padding: 2.5rem 1rem;
+}
+.B-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 350px;
+    gap: 1.3rem;
+    flex-direction: column;
+}
+.Blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: start;
+}
+.Blog .details span{
+    color: white;
+    padding: 10px 15px;
+    background: rgb(48, 144, 171);
+}
+
+
+@media (max-width: 1100px) {
+    .B-blog{
+        flex-wrap: wrap;
+    }
+}
