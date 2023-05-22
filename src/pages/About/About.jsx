@@ -52,7 +52,8 @@ const About = () => {
             <h2>Customer Satisfaction</h2>
             <p>
               Globally user centric method interactive. Seamlessly revolutionize
-              unique portals corporate collaboration.
+              unique portals corporate collaboration.Globally extensive content with
+              quality.
             </p>
           </div>
         </div>
