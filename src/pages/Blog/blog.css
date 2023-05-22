@@ -1,38 +1,111 @@
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    transition: 0.3s ease;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  text-decoration: none;
+  list-style: none;
 }
-.blog{
-    padding: 2.5rem 1rem;
+.blog {
+  padding: 2.5rem 1rem;
 }
-.B-blog{
+.B-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+  flex: 1 1 250px;
+}
+.Blog {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  padding: 20px 17px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin: 22px 15px 22px 15px;
+  cursor: pointer;
+}
+.Blog .image {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.Blog .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-detail span {
+  color: white;
+  padding: 8px 16px;
+  display: block;
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgb(48, 144, 171);
+  font-size: 20px;
+}
+.blog-detail h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 16px;
+}
+.blog-detail p {
+  font-size: 1.2rem;
+  padding: 13px 16px;
+}
+
+.blogger{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex: 1 1 350px;
-    gap: 1.3rem;
-    flex-direction: column;
+    background: rgba(48, 144, 171, 0.3);
+    padding: 17px;
+    margin: 8px;
 }
-.Blog{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.6rem;
-    text-align: start;
+.blog-date p{
+    font-size: 1.4rem;
 }
-.Blog .details span{
+.blogger .image{
+    width: 50px;
+    border-radius: 50%;
+}
+.blogger .image img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+}
+.blogger .image img:hover{
+    transform: scale(1.1) skew(45deg);
+}
+
+.blog-detail .view{
     color: white;
-    padding: 10px 15px;
-    background: rgb(48, 144, 171);
+    background: red;
+    border: none;
+    margin: 20px 8px;
+    padding: 8px 16px;
+}
+.blog-detail .view i{
+    font-size: 1.2rem;
+}
+.blog-detail .view p{
+    font-size: 1.2rem;
 }
 
+@media (max-width: 1200px) {
+  .B-blog {
+    flex-wrap: wrap;
+  }
+  .B-blog .Blog {
+    width: 45%;
+  }
+}
 
-@media (max-width: 1100px) {
-    .B-blog{
-        flex-wrap: wrap;
-    }
+@media (max-width: 760px) {
+  .B-blog .Blog {
+    width: 100%;
+  }
 }

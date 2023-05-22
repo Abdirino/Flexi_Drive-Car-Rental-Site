@@ -49,6 +49,7 @@ const Listings = () => {
       </div>
 
       <div className="car-list">
+
           <div className="car">
             <div className="image">
               <img src={Car1} alt="" />
@@ -225,7 +226,9 @@ const Listings = () => {
             <h2>Rent Now</h2>
           </div>
         </div>
+
       </div>
+      
       <div className="view">
         <Link to="/car-listing" style={{ color: "white" }}>
           <span>View all cars</span>
