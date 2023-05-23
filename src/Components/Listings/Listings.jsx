@@ -49,65 +49,66 @@ const Listings = () => {
       </div>
 
       <div className="car-list">
+        <div className="car">
+          <div className="image">
+            <img src={Car1} alt="" />
+          </div>
 
-          <div className="car">
-            <div className="image">
-              <img src={Car1} alt="" />
-            </div>
+          <div className="info">
+            <h2>Toyota Camry SE 350</h2>
+            <div className="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
 
-            <div className="info">
-              <h2>Toyota Camry SE 350</h2>
-              <div className="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-
-                <div className="rate">
-                  <p>(5.0)</p>
-                </div>
-              </div>
-
-              <div className="specs">
-                <div className="spec">
-                  <i class="fa-solid fa-car"></i>
-                  <p>Manual</p>
-                </div>
-                <div className="spec">
-                  <i class="fa-solid fa-gauge"></i>
-                  <p>10 KM</p>
-                </div>
-                <div className="spec">
-                  <i class="fa-solid fa-gas-pump"></i>
-                  <p>Petrol</p>
-                </div>
-                <div className="spec">
-                  <i class="fa-solid fa-power-off"></i>
-                  <p>Power</p>
-                </div>
-                <div className="spec">
-                  <i class="fa-solid fa-car-side"></i>
-                  <p>2012</p>
-                </div>
-                <div className="spec">
-                  <i class="fa-solid fa-person"></i>
-                  <p>5 Persons</p>
-                </div>
+              <div className="rate">
+                <p>(5.0)</p>
               </div>
             </div>
 
-            <div className="price">
-              <p>China</p>
-              <h3>
-                $450 <span>/per Day</span>
-              </h3>
+            <div className="specs">
+              <div className="spec">
+                <i class="fa-solid fa-car"></i>
+                <p>Manual</p>
+              </div>
+              <div className="spec">
+                <i class="fa-solid fa-gauge"></i>
+                <p>10 KM</p>
+              </div>
+              <div className="spec">
+                <i class="fa-solid fa-gas-pump"></i>
+                <p>Petrol</p>
+              </div>
+              <div className="spec">
+                <i class="fa-solid fa-power-off"></i>
+                <p>Power</p>
+              </div>
+              <div className="spec">
+                <i class="fa-solid fa-car-side"></i>
+                <p>2012</p>
+              </div>
+              <div className="spec">
+                <i class="fa-solid fa-person"></i>
+                <p>5 Persons</p>
+              </div>
             </div>
+          </div>
 
+          <div className="price">
+            <p>China</p>
+            <h3>
+              $450 <span>/per Day</span>
+            </h3>
+          </div>
+
+          <Link to="/car-details">
             <div className="rent">
               <h2>Rent Now</h2>
             </div>
-          </div>
+          </Link>
+        </div>
 
         <div className="car">
           <div className="image">
@@ -163,9 +164,11 @@ const Listings = () => {
             </h3>
           </div>
 
-          <div className="rent">
-            <h2>Rent Now</h2>
-          </div>
+          <Link to="/car-details">
+            <div className="rent">
+              <h2>Rent Now</h2>
+            </div>
+          </Link>
         </div>
 
         <div className="car">
@@ -222,13 +225,14 @@ const Listings = () => {
             </h3>
           </div>
 
-          <div className="rent">
-            <h2>Rent Now</h2>
-          </div>
+          <Link to="/car-details">
+            <div className="rent">
+              <h2>Rent Now</h2>
+            </div>
+          </Link>
         </div>
-
       </div>
-      
+
       <div className="view">
         <Link to="/car-listing" style={{ color: "white" }}>
           <span>View all cars</span>

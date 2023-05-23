@@ -14,6 +14,7 @@ import Car7 from "../../Images/car-07.jpg";
 import Car8 from "../../Images/car-08.jpg";
 import Car6 from "../../Images/car-06.jpg";
 import Car4 from "../../Images/car-04.jpg";
+import { Link } from "react-router-dom";
 
 const CarListing = () => {
   return (
@@ -99,10 +100,11 @@ const CarListing = () => {
                 $450 <span>/per Day</span>
               </h3>
             </div>
-
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -159,9 +161,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -218,9 +222,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -277,9 +283,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -336,9 +344,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -395,9 +405,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -454,9 +466,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -513,9 +527,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="car">
@@ -572,9 +588,11 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <div className="rent">
-              <h2>Rent Now</h2>
-            </div>
+            <Link to='/car-details'>
+              <div className="rent">
+                <h2>Rent Now</h2>
+              </div>
+            </Link>
           </div>
 
           <div className="next">

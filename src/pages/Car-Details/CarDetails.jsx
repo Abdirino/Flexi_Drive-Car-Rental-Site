@@ -7,7 +7,9 @@ const CarDetails = () => {
   return (
     <>
       <Navbar />
-      <div className="car-details">Car Details</div>
+      <div className="car-details">
+        <h1>Car Details</h1>
+      </div>
       <Footer />
     </>
   );
