@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="contact-info">
         <h2>Contact Info</h2>
         <div className="underline"></div>
-        <div className="contact">
+        <div className="footer-contact">
           <div className="phone">
             <i class="fa-solid fa-phone"></i>
             <p>+254 708299034</p>

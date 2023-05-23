@@ -271,7 +271,7 @@ const CarListing = () => {
             </div>
 
             <div className="price">
-              <p>USA</p>
+              <p>Vietnam</p>
               <h3>
                 $90 <span>/per Day</span>
               </h3>
@@ -330,7 +330,7 @@ const CarListing = () => {
             </div>
 
             <div className="price">
-              <p>USA</p>
+              <p>India</p>
               <h3>
                 $70 <span>/per Day</span>
               </h3>
@@ -389,7 +389,7 @@ const CarListing = () => {
             </div>
 
             <div className="price">
-              <p>USA</p>
+              <p>Canada</p>
               <h3>
                 $150 <span>/per Day</span>
               </h3>
@@ -448,7 +448,7 @@ const CarListing = () => {
             </div>
 
             <div className="price">
-              <p>USA</p>
+              <p>Kenya</p>
               <h3>
                 $85 <span>/per Day</span>
               </h3>
@@ -507,7 +507,7 @@ const CarListing = () => {
             </div>
 
             <div className="price">
-              <p>USA</p>
+              <p>Italy</p>
               <h3>
                 $250 <span>/per Day</span>
               </h3>
