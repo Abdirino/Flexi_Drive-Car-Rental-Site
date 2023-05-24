@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import webIcon from "../../Images/FlexiDrive Website-icon.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
@@ -83,14 +83,18 @@ const Navbar = () => {
           </ul>
 
           <div className="btns">
-            <button className="signIn">
-              <i className="fa-regular fa-user"></i>
-              <p>Sign In</p>
-            </button>
-            <button className="signUp">
-              <i className="fa-solid fa-lock"></i>
-              <p>Sign Up</p>
-            </button>
+            <Link to='sign-in'>
+              <button className="signIn">
+                <i className="fa-regular fa-user"></i>
+                <p>Sign In</p>
+              </button>
+            </Link>
+            <Link to='sign-up'>
+              <button className="signUp">
+                <i className="fa-solid fa-lock"></i>
+                <p>Sign Up</p>
+              </button>
+            </Link>
           </div>
         </nav>
       </div>

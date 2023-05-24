@@ -7,6 +7,8 @@ import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "./ScrollToTop";
 import CarDetails from "./pages/Car-Details/CarDetails";
+import SignIn from "./Components/SignIn/SignIn";
+import SignUp from "./Components/SignUp/SignUp";
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
           <Route path="car-listing" element={<CarListing />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
+
           <Route path="car-details" element={<CarDetails />} />
+          <Route path="sign-in" element={<SignIn />} />
+          <Route path="sign-up" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </div>

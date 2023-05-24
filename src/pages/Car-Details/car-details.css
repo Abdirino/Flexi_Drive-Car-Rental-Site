@@ -83,23 +83,26 @@
     padding: 12px 0;
 }
 .car-application input {
-    padding: 15px 115px 15px 7px;
-    border: 2px solid black;
-    border-radius: 8px;
+    width: 100%;
+    padding: 17px;
+    border: none;
+    background: rgba(115, 183, 210, 0.3);
+    border-radius: 4px;
 }
 .car-application button{
-    padding: 15px 110px;
+    padding: 15px;
+    width: 100%;
     font-size: 20px;
     border: none;
     border-radius: 8px;
     margin: 20px 0;
-    background: red;
+    background: black;
     font-weight: bold;
     cursor: pointer;
     color: white;
 }
 .car-application button:hover{
-    background: #791010;
+    background: red;
 }
 
 
