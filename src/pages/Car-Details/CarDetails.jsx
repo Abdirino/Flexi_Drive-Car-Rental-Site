@@ -73,7 +73,7 @@ const CarDetails = () => {
 
           <div className="car-application">
             <div className="head">
-              <h2>Check Availability</h2>
+              <h2>Check <span>Availability</span></h2>
               <div></div>
             </div>
             <h3>Pick up Location</h3>

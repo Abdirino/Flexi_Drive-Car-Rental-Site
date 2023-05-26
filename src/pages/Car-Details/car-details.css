@@ -76,8 +76,11 @@
     font-size: 27px;
     padding: 12px 0;
 }
+.car-application .head h2 span{
+    color: #ff0000;
+}
 .car-application .head div{
-    width: 50px;
+    width: 80px;
 }
 .car-application h3{
     padding: 12px 0;
