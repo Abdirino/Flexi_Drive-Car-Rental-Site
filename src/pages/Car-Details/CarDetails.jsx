@@ -1,20 +1,20 @@
 import React from "react";
 import "./car-details.css";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from "react-responsive-carousel";
 
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 
 import Hero from "../../Images/Car-details.jpg";
-import car1 from "../../Images/car-01.jpg";
-import car2 from "../../Images/car-02.jpg";
-import car3 from "../../Images/car-03.jpg";
-import car4 from "../../Images/car-04.jpg";
-import car5 from "../../Images/car-05.jpg";
-import car6 from "../../Images/car-06.jpg";
-import car7 from "../../Images/car-07.jpg";
+// import car1 from "../../Images/car-01.jpg";
+// import car2 from "../../Images/car-02.jpg";
+// import car3 from "../../Images/car-03.jpg";
+// import car4 from "../../Images/car-04.jpg";
+// import car5 from "../../Images/car-05.jpg";
+// import car6 from "../../Images/car-06.jpg";
+// import car7 from "../../Images/car-07.jpg";
 
 const CarDetails = () => {
   return (
@@ -45,7 +45,7 @@ const CarDetails = () => {
         </div>
 
         <div className="car-app">
-          <div className="car-scroll">
+          {/* <div className="car-scroll">
             <Carousel>
               <div className="car-image">
                 <img src={car5} alt="car1" />
@@ -69,7 +69,7 @@ const CarDetails = () => {
                 <img src={car7} alt="car3" />
               </div>
             </Carousel>
-          </div>
+          </div> */}
 
           <div className="car-application">
             <div className="head">

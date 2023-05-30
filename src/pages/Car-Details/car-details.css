@@ -10,116 +10,115 @@
   padding: 3rem 1rem;
 }
 
-.des{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
-    width: 100%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    padding: 12px 0;
+.des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 12px 0;
 }
-.des h2 span{
-    padding: 8px 21px;
-    color: white;
-    background: rgb(195, 28, 28);
-    margin: 0 10px;
-    display: inline-block;
-    width: fit-content;
+.des h2 span {
+  padding: 8px 21px;
+  color: white;
+  background: rgb(195, 28, 28);
+  margin: 0 10px;
+  display: inline-block;
+  width: fit-content;
 }
 .stars {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 7px 0;
-    margin: 7px;
-    border: none;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 7px 0;
+  margin: 7px;
+  border: none;
+}
 
-.car-app{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1 1 400px;
-    gap: 0.8rem;
+.car-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 400px;
+  gap: 0.8rem;
 }
-.car-scroll{
-    width: 60%;
-    padding: 1.6rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    margin: 20px 0;
+.car-scroll {
+  width: 60%;
+  padding: 1.6rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin: 20px 0;
 }
-.car-application{
-    width: 40%;
-    padding: 2rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    margin: 20px 0;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    height: 655px;
+.car-application {
+  width: 40%;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 655px;
 }
-.car-application .head{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding: 25px 0;
+.car-application .head {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 25px 0;
 }
-.car-application .head h2{
-    font-size: 27px;
-    padding: 12px 0;
+.car-application .head h2 {
+  font-size: 27px;
+  padding: 12px 0;
 }
-.car-application .head h2 span{
-    color: #ff0000;
+.car-application .head h2 span {
+  color: #ff0000;
 }
-.car-application .head div{
-    width: 80px;
+.car-application .head div {
+  width: 80px;
 }
-.car-application h3{
-    padding: 12px 0;
+.car-application h3 {
+  padding: 12px 0;
 }
 .car-application input {
-    width: 100%;
-    padding: 17px;
-    border: none;
-    background: rgba(115, 183, 210, 0.3);
-    border-radius: 4px;
+  width: 100%;
+  padding: 17px;
+  border: none;
+  background: rgba(115, 183, 210, 0.3);
+  border-radius: 4px;
 }
-.car-application button{
-    padding: 15px;
-    width: 100%;
-    font-size: 20px;
-    border: none;
-    border-radius: 8px;
-    margin: 20px 0;
-    background: black;
-    font-weight: bold;
-    cursor: pointer;
-    color: white;
+.car-application button {
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px 0;
+  background: black;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
 }
-.car-application button:hover{
-    background: red;
+.car-application button:hover {
+  background: red;
 }
-
 
 @media (max-width: 1250px) {
-    .car-app{
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .car-scroll{
-        width: 100%;
-    }
-    .car-application{
-        width: 100%;
-    }
+  .car-app {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .car-scroll {
+    width: 100%;
+  }
+  .car-application {
+    width: 100%;
+  }
 }
