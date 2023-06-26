@@ -147,7 +147,13 @@
 }
 
 @media (max-width: 720px) {
+  .logo h1 {
+    font-size: 29px;
+  }
   .btns{
     display: none;
+  }
+  .logo{
+    gap: 10px;
   }
 }

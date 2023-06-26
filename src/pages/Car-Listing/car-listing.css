@@ -82,11 +82,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 5px;
 }
 .next p{
-  padding: 14px 25px;
+  padding: 10px 20px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-  margin: 10px;
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;

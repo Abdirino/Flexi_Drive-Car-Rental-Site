@@ -99,7 +99,7 @@ const Listings = () => {
           <div className="price">
             <p>China</p>
             <h3>
-              $450 <span>/per Day</span>
+              $750 <span>/per Day</span>
             </h3>
           </div>
 
@@ -160,7 +160,7 @@ const Listings = () => {
           <div className="price">
             <p>Germany</p>
             <h3>
-              $450 <span>/per Day</span>
+              $1100 <span>/per Day</span>
             </h3>
           </div>
 

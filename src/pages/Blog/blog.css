@@ -22,9 +22,9 @@
   width: 30%;
   flex-direction: column;
   padding: 20px 17px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
-  margin: 22px 15px 22px 15px;
+  margin: 20px 10px;
   cursor: pointer;
 }
 .Blog .b-image {

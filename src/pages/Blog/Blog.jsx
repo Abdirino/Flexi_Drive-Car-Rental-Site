@@ -22,7 +22,7 @@ const Blog = () => {
       </div>
 
       <div className="head">
-        <h1>Blogs</h1>
+        <h1> Our Blogs</h1>
         <div></div>
         <div></div>
       </div>
