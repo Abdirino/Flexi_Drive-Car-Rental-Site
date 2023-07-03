@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.5rem;
   flex: 1 1 90px;
 }
 .contact .contact-detail span {
@@ -45,14 +45,14 @@
   padding: 8px;
 }
 .contact .contact-detail span p {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   padding: 8px;
 }
 
 .contact-form {
   margin: 3rem 0.8rem;
   padding: 1rem;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
 .contact-form .c-image {
   overflow: hidden;
   border-radius: 8px;
-  width: 55%;
+  width: 50%;
 }
 .c-image img {
   width: 100%;
