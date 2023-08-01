@@ -5,7 +5,9 @@
     transform: 0.3s ease;
     box-sizing: border-box;
 }
-
+.Footer{
+    background: black;
+}
 .footer{
     width: 100%; 
     padding: 3rem 2rem;
@@ -13,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2.5rem;
     color: white;
     text-align: start;
 }
@@ -148,6 +151,9 @@
     color: red;
 }
 
+.Copy{
+    background: black;
+}
 .copy-write{
     display: flex;
     justify-content: space-between;
@@ -180,5 +186,16 @@
         justify-content: center;
         align-items: center;
         padding: 8px;
+    }
+}
+
+@media(min-width: 1768px){
+    .Footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        max-width: 70%;
     }
 }

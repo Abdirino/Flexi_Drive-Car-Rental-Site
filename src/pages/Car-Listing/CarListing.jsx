@@ -31,13 +31,6 @@ const CarListing = () => {
       </div>
 
       <div className="car-listing">
-        {/* <div className="search">
-          <h2>What are you looking for</h2>
-          <span>
-            <p>Search here...</p>
-            <i className="fas fa-search"></i>
-          </span>
-        </div> */}
         <div className="para">
           <p>
             Determining the most popular cars requires considering various
@@ -46,6 +39,7 @@ const CarListing = () => {
           </p>
         </div>
 
+        <div className="Cars"></div>
         <div className="car-list">
           <div className="car">
             <div className="image">

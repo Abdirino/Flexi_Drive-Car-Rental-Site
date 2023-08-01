@@ -41,7 +41,7 @@
 
 .car-app {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex: 1 1 400px;
   gap: 0.8rem;
@@ -54,8 +54,8 @@
   margin: 20px 0;
 }
 .car-application {
-  width: 40%;
-  padding: 2rem;
+  width: 82%;
+  padding: 2.1rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   margin: 20px 0;
@@ -87,7 +87,7 @@
 }
 .car-application input {
   width: 100%;
-  padding: 17px;
+  padding: 19px;
   border: none;
   background: rgba(115, 183, 210, 0.3);
   border-radius: 4px;

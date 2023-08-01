@@ -38,19 +38,21 @@ const Contact = () => {
           </span>
         </div>
 
-        <div className="contact-form">
-          <div className="c-image">
-            <img src={contactIMG} alt="" />
-          </div>
-          <div className="form">
-            <form action="">
-              <h1><span>Get in</span> touch!</h1>
-              <p>Name</p><input type= "text" />
-              <p>Email</p><input type= "email" />
-              <p>Phone Number</p><input type= "text" />
-              <p>Message</p><textarea name="" id="" cols="45" rows="10"></textarea>
-              <button>Send</button>
-            </form>
+        <div className="Form">
+          <div className="contact-form">
+            <div className="c-image">
+              <img src={contactIMG} alt="" />
+            </div>
+            <div className="form">
+              <form action="">
+                <h1><span>Get in</span> touch!</h1>
+                <p>Name</p><input type="text" />
+                <p>Email</p><input type="email" />
+                <p>Phone Number</p><input type="text" />
+                <p>Message</p><textarea name="" id="" cols="45" rows="10"></textarea>
+                <button>Send</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

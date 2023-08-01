@@ -6,6 +6,14 @@
   text-decoration: none;
   list-style: none;
 }
+.Home{
+  background: rgba(255, 68, 0, 0.86);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
 .home {
   /* background-image: url(../../Images/Home-BG.jpg);
   background-position: center;
@@ -13,30 +21,17 @@
   background-size: contain;
   background-repeat: no-repeat; */
   /* background-size: cover; */
-  background: orangered;
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem 1rem 3rem 1rem;
+  padding: 6rem 1rem 4rem 1rem;
 }
 .home-dis {
   display: flex;
-  flex: 1 1 400px;
+  flex: 1 1 500px;
   padding: 20px 30px;
   justify-content: flex-start;
   align-items: flex-start;
-}
-.trust {
-  display: flex;
-  width: fit-content;
-  flex-direction: row;
-  /* justify-content: space-around;
-  align-items: center; */
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 18px;
-  padding: 10px 20px;
 }
 .intro {
   /* width: fit-content; */
@@ -47,17 +42,23 @@
   flex-direction: column;
 }
 .intro h1 {
-  font-size: 50px;
+  font-size: 44px;
   padding: 5px;
   text-align: start;
 }
 .intro p {
-  font-size: 22px;
+  font-size: 18px;
   padding: 12px 0;
   text-align: start;
 }
 .intro h1 span {
   color: rgb(151, 5, 5);
+}
+
+.views{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 .view {
   display: flex;
@@ -65,16 +66,17 @@
   justify-content: space-around;
   align-items: center;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 3px;
   color: white;
   width: fit-content;
-  padding: 16px 32px;
+  padding: 13px 26px;
   margin: 18px 0;
   background: black;
   cursor: pointer;
   box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%),
     0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%),
     inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+  transition: 0.1s ease !important;  
 }
 .view span{
     font-size: 20px;
@@ -91,12 +93,14 @@
 
 .home-img {
   display: flex;
-  flex: 1 1 500px;
+  flex: 1 1 400px;
 }
 .home-img img {
-  object-fit: contain;
-  width: 700px;
+  width: 100%; height: 100%;
+  object-fit: cover;
 }
+
+
 
 @media (max-width: 1200px) {
   .home-img{
@@ -114,4 +118,25 @@
     .intro p{
         font-size: 18px;
     }
+}
+
+@media(min-width: 1768px){
+  .Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home{
+    max-width: 70%;
+  }
+  .intro h1 {
+    font-size: 64px;
+    padding: 9px;
+    text-align: start;
+  }
+  .intro p {
+    font-size: 25px;
+    padding: 12px 0;
+    text-align: start;
+  }
 }

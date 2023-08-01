@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+
+::-webkit-scrollbar{
+  width: 12px !important;
+}
+::-webkit-scrollbar-track{
+  background: rgba(255, 0, 0, 0.12) !important;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 3px !important;
+  background: red !important;
+}

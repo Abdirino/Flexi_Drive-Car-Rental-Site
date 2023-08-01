@@ -15,7 +15,7 @@
 }
 .hero{
   width: 100%;
-  height: 53vh;
+  height: 45vh;
   padding: 0 !important;
 }
 .hero img{
@@ -48,8 +48,9 @@
   align-items: center;
 }
 .content p {
-  font-size: 1.2rem;
+  font-size: 17px;
   padding: 35px 0;
+  width: 870px;
 }
 
 .reasons {
@@ -61,19 +62,19 @@
 }
 .reasons .reason {
   display: flex;
-  flex: 1 1 400px;
+  flex: 1 1 340px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  padding: 20px 0 40px 0;
+  padding: 2rem 1rem;
   border-radius: 8px;
 }
 .reason i {
-  padding: 30px 120px;
+  padding: 2rem 6rem;
   font-size: 2rem;
   border-radius: 8px;
-  margin: 10px;
+  margin: 1rem 2rem;
   color: white;
 }
 .reason:nth-child(1) i {
@@ -91,7 +92,11 @@
 }
 .reason p {
   font-size: 1rem;
-  padding: 8px;
+  padding: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .reason:hover {
   background: #000000;
@@ -111,5 +116,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .content p{
+    width: auto;
+  }
+}
+
+@media(min-width: 1768px) {
+  .Reasons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reasons{
+    max-width: 70%;
   }
 }

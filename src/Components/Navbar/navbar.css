@@ -31,12 +31,15 @@
   gap: 2px;
   cursor: pointer;
 }
+.logo img {
+  width: 40px; height: 40px;
+}
 .nav-icon {
   color: red;
   display: none;
 }
 .logo h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Bree Serif", serif;
   color: black;
 }
@@ -52,10 +55,10 @@
   padding: 0.5rem;
 }
 .nav-item a {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   font-weight: 500;
-  padding: 10px;
+  padding: 6px;
 }
 .nav-item a:hover {
   color: red;
@@ -84,13 +87,13 @@
   align-items: center;
   gap: 3px;
   margin: 6px;
-  padding: 15px 20px;
+  padding: 10px 18px;
   border: none;
   cursor: pointer;
   background: red;
   color: white;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .signIn {
   background: black;
@@ -155,5 +158,17 @@
   }
   .logo{
     gap: 10px;
+  }
+}
+
+@media(min-width: 1768px){
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav{
+    max-width: 70%;
+    gap: 15rem;
   }
 }

@@ -20,8 +20,8 @@
 }
 .contact .contact-detail span {
   padding: 8px 4px;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
   width: 270px;
 }
 .contact .contact-detail span:hover{
@@ -52,18 +52,19 @@
 .contact-form {
   margin: 3rem 0.8rem;
   padding: 1rem;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 350px;
-  gap: 2.8rem;
-  border-radius: 8px;
+  gap: 3rem;
+  border-radius: 2px;
 }
 .contact-form .c-image {
+  display: flex;
+  flex: 1 1 450px;
   overflow: hidden;
   border-radius: 8px;
-  width: 50%;
+  width: 45%;
 }
 .c-image img {
   width: 100%;
@@ -73,6 +74,7 @@
 
 .form {
   display: flex;
+  flex: 1 1 450px;
   flex-direction: column;
   justify-content: center;
   gap: 0.9rem;
@@ -96,7 +98,7 @@ form{
 }
 .form form input {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 15px 0;
   border: none;
   background: rgba(111, 153, 172, 0.2);
@@ -105,12 +107,12 @@ form{
   width: 100%;
   border: none;
   background: rgba(133, 187, 211, 0.2);
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .form form button {
   width: 100%;
   padding: 10px 75px;
-  border-radius: 8px;
+  border-radius: 3px;
   background: black;
   color: white;
   border: none;
@@ -131,5 +133,16 @@ form{
   }
   .contact-form .c-image{
     width: 100%;
+  }
+}
+
+@media(min-width: 1768px){
+  .Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form{
+    max-width: 70%;
   }
 }

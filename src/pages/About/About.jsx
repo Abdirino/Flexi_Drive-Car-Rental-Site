@@ -3,6 +3,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./about.css";
 import AboutHero from "../../Images/AboutHero.jpg";
+import Pricing from "../../Components/Pricing/Pricing";
 
 const About = () => {
   return (
@@ -27,38 +28,40 @@ const About = () => {
           </p>
         </div>
 
-        <div className="reasons">
-          <div className="reason">
-            <i class="fa-solid fa-user-check"></i>
-            <h2>Easy and Fast Booking</h2>
-            <p>
-              Completely carinate e business testing process whereas fully
-              researched customer service. Globally extensive content with
-              quality.
-            </p>
-          </div>
+        <div className="Reasons">
+          <div className="reasons">
+            <div className="reason">
+              <i class="fa-solid fa-user-check"></i>
+              <h2>Easy and Fast Booking</h2>
+              <p>
+                Completely carinate e business testing process whereas fully
+                researched customer service. Globally extensive content with
+                quality.
+              </p>
+            </div>
 
-          <div className="reason">
-            <i class="fa-solid fa-user-check"></i>
-            <h2>Many PickUp Location</h2>
-            <p>
-              Enthusiastically magnetic initiatives with cross-platform sources.
-              Dynamically target testing procedures through effective.
-            </p>
-          </div>
+            <div className="reason">
+              <i class="fa-solid fa-user-check"></i>
+              <h2>Many PickUp Location</h2>
+              <p>
+                Enthusiastically magnetic initiatives with cross-platform sources.
+                Dynamically target testing procedures through effective.
+              </p>
+            </div>
 
-          <div className="reason">
-            <i class="fa-solid fa-user-check"></i>
-            <h2>Customer Satisfaction</h2>
-            <p>
-              Globally user centric method interactive. Seamlessly revolutionize
-              unique portals corporate collaboration.Globally extensive content with
-              quality.
-            </p>
+            <div className="reason">
+              <i class="fa-solid fa-user-check"></i>
+              <h2>Customer Satisfaction</h2>
+              <p>
+                Globally user centric method interactive. Seamlessly revolutionize
+                unique portals corporate collaboration.Globally extensive content with
+                quality.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
+      <Pricing />
       <Footer />
     </>
   );

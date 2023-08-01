@@ -9,11 +9,20 @@ import ScrollToTop from "./ScrollToTop";
 import CarDetails from "./pages/Car-Details/CarDetails";
 import SignIn from "./Components/SignIn/SignIn";
 import SignUp from "./Components/SignUp/SignUp";
+import { useEffect, useState } from "react";
+import Loader from "./Components/Loader/Loader";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4500)
+  }, [])
   return (
     <div className="App">
-      <BrowserRouter>
+      {loading ? (<Loader />) : (<BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +35,7 @@ function App() {
           <Route path="sign-in" element={<SignIn />} />
           <Route path="sign-up" element={<SignUp />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>)}
     </div>
   );
 }

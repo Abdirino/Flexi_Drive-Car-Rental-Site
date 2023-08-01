@@ -110,3 +110,14 @@
     width: 100%;
   }
 }
+
+@media(min-width: 1768px) {
+  .blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .B-blog{
+    max-width: 80%;
+  }
+}

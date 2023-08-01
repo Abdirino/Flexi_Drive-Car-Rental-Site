@@ -45,31 +45,6 @@ const CarDetails = () => {
         </div>
 
         <div className="car-app">
-          {/* <div className="car-scroll">
-            <Carousel>
-              <div className="car-image">
-                <img src={car5} alt="car1" />
-              </div>
-              <div className="car-image">
-                <img src={car2} alt="car2" />
-              </div>
-              <div className="car-image">
-                <img src={car3} alt="car3" />
-              </div>
-              <div className="car-image">
-                <img src={car4} alt="car3" />
-              </div>
-              <div className="car-image">
-                <img src={car1} alt="car3" />
-              </div>
-              <div className="car-image">
-                <img src={car6} alt="car3" />
-              </div>
-              <div className="car-image">
-                <img src={car7} alt="car3" />
-              </div>
-            </Carousel>
-          </div> */}
 
           <div className="car-application">
             <div className="head">
@@ -81,9 +56,9 @@ const CarDetails = () => {
             <h3>Drop off Location</h3>
             <input type="text" placeholder="78 10th Street Kajuja Nairobi"/>
             <h3>Pick Up Date</h3>
-            <input type="text" placeholder="4 / 11 / 2023"/>
+            <input type="date" placeholder="4 / 11 / 2023"/>
             <h3>Return Date</h3>
-            <input type="text" placeholder="28 / 12 / 2023"/>
+            <input type="date" placeholder="28 / 12 / 2023"/>
 
             <button>Check Availability</button>
           </div>
