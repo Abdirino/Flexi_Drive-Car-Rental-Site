@@ -6,6 +6,7 @@ import Listings from "../../Components/Listings/Listings";
 import Navbar from "../../Components/Navbar/Navbar";
 import Pricing from "../../Components/Pricing/Pricing";
 import Footer from "../../Components/Footer/Footer";
+import News from "../../Components/NewsLetter/News";
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
       </div>
       <Listings />
       <Pricing />
+      <News />
       <Footer />
     </>
   );
