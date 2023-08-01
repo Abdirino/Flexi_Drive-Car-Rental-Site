@@ -1,0 +1,12 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+}
+.News{
+    padding: 2rem 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48), url(../../Images/Flexi-News.jpg));
+}
+.news{
+    padding: 1rem;
+}

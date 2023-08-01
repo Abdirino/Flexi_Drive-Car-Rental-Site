@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
-import HomeImg from "../../Images/My project.png";
+import HomeImg from "../../Images/Flexi-Home.png";
 import Listings from "../../Components/Listings/Listings";
 import Navbar from "../../Components/Navbar/Navbar";
 import Pricing from "../../Components/Pricing/Pricing";
