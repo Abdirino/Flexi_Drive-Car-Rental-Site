@@ -5,6 +5,8 @@ import "./about.css";
 import AboutHero from "../../Images/AboutHero.jpg";
 import Pricing from "../../Components/Pricing/Pricing";
 
+import AboutIMG from '../../Images/about_image.jpg'
+
 const About = () => {
   return (
     <>
@@ -12,6 +14,22 @@ const About = () => {
       <div className="hero">
         <img src={AboutHero} alt="" />
       </div>
+
+      <div className="a-resize">
+        <div className="About">
+          <div className="A-image">
+            <img src={AboutIMG} alt="" />
+          </div>
+          <div className="A-detail">
+            <h3>About Company</h3>
+            <h1>Engage the engine, becomes your gateway to unforgettable experiences.</h1>
+            <p>As you take the driver's seat, you step into a world of boundless exploration and endless possibilities.
+              With a fleet of meticulously maintained vehicles at your disposal, each designed to provide comfort, safety, and reliability, you are empowered to traverse winding country roads, conquer majestic mountain passes, and meander along picturesque coastal routes. Our cars are not just mere vehicles; they are your trusted companions, ready to accompany you on every chapter of your adventure.</p>
+          </div>
+        </div>
+      </div>
+
+
       <div className="about">
         <div className="head">
           <h1>Why Choose Us</h1>
