@@ -6,7 +6,6 @@ import Listings from "../../Components/Listings/Listings";
 import Navbar from "../../Components/Navbar/Navbar";
 import Pricing from "../../Components/Pricing/Pricing";
 import Footer from "../../Components/Footer/Footer";
-import News from "../../Components/NewsLetter/News";
 
 const Home = () => {
   return (
@@ -26,9 +25,6 @@ const Home = () => {
               </p>
               <div className="views">
                 <div className="view">
-                  <Link to='/about' style={{ color: "white" }}><span>Learn more</span></Link>
-                </div>
-                <div className="view">
                   <Link to='/car-listing' style={{ color: "white" }}><span>View all cars</span></Link>
                   <i className="fa-solid fa-arrow-right"></i>
                 </div>
@@ -37,13 +33,12 @@ const Home = () => {
           </div>
 
           <div className="home-img">
-            <img src={HomeImg} alt="Lambo-Home" />
+            <img src={HomeImg} alt="Lambo-Home" loading="lazy" />
           </div>
         </div>
       </div>
       <Listings />
       <Pricing />
-      <News />
       <Footer />
     </>
   );
