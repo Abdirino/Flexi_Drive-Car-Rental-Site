@@ -6,6 +6,7 @@ import Listings from "../../Components/Listings/Listings";
 import Navbar from "../../Components/Navbar/Navbar";
 import Pricing from "../../Components/Pricing/Pricing";
 import Footer from "../../Components/Footer/Footer";
+import Booking from "../../Components/Booking/Booking";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Booking />
       <Listings />
       <Pricing />
       <Footer />
