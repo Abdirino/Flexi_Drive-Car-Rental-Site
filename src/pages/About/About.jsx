@@ -19,9 +19,27 @@ const About = () => {
         <div className="About">
           <div className="A-detail">
             <h3>About our Company</h3>
-            <h1>Engage the engine, becomes your gateway to unforgettable experiences.</h1>
+            <h1>Engage the engine, <span>Fuel Your Journey</span> with Unforgettable Experiences.</h1>
             <p>As you take the driver's seat, you step into a world of boundless exploration and endless possibilities.
-              With a fleet of meticulously maintained vehicles at your disposal, each designed to provide comfort, safety, and reliability, you are empowered to traverse winding country roads, conquer majestic mountain passes, and meander along picturesque coastal routes. Our cars are not just mere vehicles; they are your trusted companions, ready to accompany you on every chapter of your adventure.</p>
+              With a fleet of meticulously maintained vehicles at your disposal, each designed to provide comfort,
+              safety, and reliability, you are empowered to traverse winding country roads, conquer majestic mountain passes,
+              and meander along picturesque coastal routes. Our cars are not just mere vehicles; they are your trusted companions,
+              ready to accompany you on every chapter of your adventure.
+            </p>
+            <div className="a-icons">
+              <div className="a-icon">
+                <i class="fa-solid fa-car-side"></i>
+                <h4>20 <span>Car types</span></h4>
+              </div>
+              <div className="a-icon">
+                <i class="fa-solid fa-building"></i>
+                <h4>35 <span>Car Outlets</span></h4>
+              </div>
+              <div className="a-icon">
+                <i class="fa-solid fa-car-side"></i>
+                <h4>25 <span>Repair Stations</span></h4>
+              </div>
+            </div>
           </div>
           <div className="A-image">
             <img src={AboutIMG} alt="" />

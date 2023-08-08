@@ -55,10 +55,11 @@
   padding: 0.5rem;
 }
 .nav-item a {
-  font-size: 17px;
+  font-size: 18px;
   color: black;
   font-weight: 500;
-  padding: 6px;
+  padding: 9px;
+  letter-spacing: 0.3px;
 }
 .nav-item a:hover {
   color: red;
@@ -121,8 +122,8 @@
   }
   .nav-icon {
     display: inline-flex;
-    font-size: 33px;
-    padding: 18px;
+    font-size: 25px;
+    padding: 14px;
     color: red;
   }
   .nav-menu {
@@ -133,7 +134,7 @@
     background: white;
     height: auto;
     position: absolute;
-    top: 85px;
+    top: 55px;
     left: -110%;
     opacity: 0;
     align-items: stretch;
@@ -151,17 +152,20 @@
 
 @media (max-width: 720px) {
   .logo h1 {
-    font-size: 29px;
+    font-size: 25px;
   }
   .btns{
     display: none;
   }
   .logo{
-    gap: 10px;
+    gap: 8px;
+  }
+  .logo img {
+    width: 30px; height: 30px;
   }
 }
 
-@media(min-width: 1768px){
+@media(min-width: 2000px){
   .header{
     display: flex;
     justify-content: center;

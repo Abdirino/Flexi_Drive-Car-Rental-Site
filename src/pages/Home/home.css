@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1rem;
+  padding: 3rem 0.8rem;
 }
 .home {
   /* background-image: url(../../Images/Home-BG.jpg);
@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   /* padding: 4rem 1rem; */
-  height: 90vh;
+  height: 92vh;
 }
 .home-dis {
   display: flex;
@@ -42,6 +42,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.intro h2 {
+  font-size: 21px;
+  padding: 8px 5px;
+  letter-spacing: 0.5px;
+  text-align: start;
+}
 .intro h1 {
   font-size: 44px;
   padding: 5px;
@@ -49,11 +55,13 @@
 }
 .intro p {
   font-size: 18px;
-  padding: 12px 0;
+  padding: 15px 5px;
   text-align: start;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 .intro h1 span {
-  color: rgb(151, 5, 5);
+  color: rgb(139, 4, 4);
 }
 
 .views{
@@ -71,7 +79,7 @@
   color: white;
   width: fit-content;
   padding: 13px 26px;
-  margin: 18px 0;
+  margin: 18px 5px;
   background: black;
   cursor: pointer;
   box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%),

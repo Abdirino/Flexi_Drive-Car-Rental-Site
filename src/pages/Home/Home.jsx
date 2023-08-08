@@ -15,6 +15,7 @@ const Home = () => {
         <div className="home" id="home">
           <div className="home-dis">
             <div className="intro">
+              <h2>"Craft Your Ideal Journey Now"</h2>
               <h1>
                 Find Your Best <span>Dream Car For Rental</span>
               </h1>

@@ -10,13 +10,13 @@
 .About {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 3rem 1rem;
   gap: 3rem;
 }
 .A-image {
   display: flex;
-  flex: 1 1 340px;
+  flex: 1 1 370px;
 }
 .A-image img {
   width: 100%;
@@ -35,13 +35,42 @@
   padding:  18px 0;
 }
 .A-detail h1{
-  font-size: 42px;
+  font-size: 40px;
   padding: 8px 0;
+}
+.A-detail h1 span{
+  color: red;
 }
 .A-detail p{
   font-size: 18px;
-  padding: 18px 0;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  padding: 28px 0;
   color: grey;
+}
+.a-icons{
+  padding: 24px 0;
+  display: flex;
+  gap: 2.5rem;
+}
+.a-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+}
+.a-icon h4{
+  font-size: 21px;
+  color: red;
+}
+.a-icon h4 span{
+  font-size: 17px;
+  color: grey;
+  font-weight: 500;
+}
+.a-icon i{
+  font-size: 45px;
+  color: red;
 }
 
 
@@ -165,7 +194,7 @@
   }
 }
 
-@media (min-width: 1768px) {
+@media (min-width: 1668px) {
   .Reasons {
     display: flex;
     justify-content: center;
