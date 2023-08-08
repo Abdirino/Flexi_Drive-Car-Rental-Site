@@ -36,7 +36,7 @@ const About = () => {
                 <h4>35 <span>Car Outlets</span></h4>
               </div>
               <div className="a-icon">
-                <i class="fa-solid fa-car-side"></i>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
                 <h4>25 <span>Repair Stations</span></h4>
               </div>
             </div>
