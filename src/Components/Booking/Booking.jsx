@@ -16,6 +16,14 @@ const Booking = () => {
               <h1>Book a car</h1>
               <p><span>SAVE 15%</span> if you prepay your booking</p>
             </div>
+            <div className="book-input">
+              <details>
+                <summary>Select Your Car Type</summary>
+                <p>Volvo</p>
+                <p>Toyota</p>
+                <p>Mazda</p>
+              </details>
+            </div>
           </div> */}
           <div className="processes">
             <h3>"Plan your trip now"</h3>

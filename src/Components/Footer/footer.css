@@ -1,201 +1,203 @@
-*{
-    margin: 0; padding: 0;
-    text-decoration: none;
-    list-style: none;
-    transform: 0.3s ease;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  transform: 0.3s ease;
+  box-sizing: border-box;
 }
-.Footer{
-    background: black;
+.Footer {
+  background: black;
 }
-.footer{
-    width: 100%; 
-    padding: 3rem 2rem;
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2.5rem;
-    color: white;
-    text-align: start;
+.footer {
+  width: 100%;
+  padding: 3rem 2rem;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  color: white;
+  text-align: start;
 }
-.about-company{
-    display: flex;
-    flex: 1 1 300px;
-    flex-direction: column;
-    margin-top: 12px;
+.about-company {
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+  margin-top: 12px;
 }
-.about-company h2{
-    font-size: 26px;
-    padding: 0.6rem;
-    cursor: pointer;
+.about-company h2 {
+  font-size: 26px;
+  padding: 0.6rem;
+  cursor: pointer;
 }
-.about-company div{
-    width: 65px;
-    height: 4px;
-    background: red;
-    margin-left: 10px;
+.about-company div {
+  width: 65px;
+  height: 4px;
+  background: red;
+  margin-left: 10px;
 }
-.about-company p{
-    font-size: 19px;
-    padding: 10px;
-    cursor: pointer;
+.about-company p {
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
 }
-.about-company p:hover{
-    color: red;
-    padding-left: 13px;
-}
-
-.car-types{
-    margin-top: 12px;
-    display: flex;
-    flex: 1 1 300px;
-    flex-direction: column;
-}
-.car-types h2{
-    font-size: 26px;
-    padding: 0.6rem;
-    cursor: pointer;
-}
-.car-types div{
-    width: 65px;
-    height: 4px;
-    background: red;
-    margin-left: 10px;
-}
-.car-types p{
-    font-size: 19px;
-    padding: 10px;
-    cursor: pointer;
-}
-.car-types p:hover{
-    color: red;
-    padding-left: 13px;
+.about-company p:hover {
+  color: red;
+  padding-left: 13px;
 }
 
-.quick-links{
-    margin-top: 12px;
-    display: flex;
-    flex: 1 1 300px;
-    flex-direction: column;
+.car-types {
+  margin-top: 12px;
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
 }
-.quick-links h2{
-    font-size: 26px;
-    padding: 0.6rem;
-    cursor: pointer;
+.car-types h2 {
+  font-size: 26px;
+  padding: 0.6rem;
+  cursor: pointer;
 }
-.quick-links div{
-    width: 65px;
-    height: 4px;
-    background: red;
-    margin-left: 10px;
+.car-types div {
+  width: 65px;
+  height: 4px;
+  background: red;
+  margin-left: 10px;
 }
-.quick-links p{
-    font-size: 19px;
-    padding: 10px;
-    cursor: pointer;
+.car-types p {
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
 }
-.quick-links p:hover{
-    color: red;
-    padding-left: 13px;
-}
-
-.contact-info{
-    margin-top: 12px;
-    display: flex;
-    flex: 1 1 300px;
-    flex-direction: column;
-}
-.contact-info h2{
-    font-size: 26px;
-    padding: 0.6rem;
-    cursor: pointer;
-}
-.contact-info .underline{
-    width: 65px;
-    height: 4px;
-    background: red;
-    margin-left: 10px;
-}
-.footer-contact .phone{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1.2rem;
-    gap: 1rem;
-    font-size: 22px;
-}
-.footer-contact .email{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-direction: row;
-    padding: 1.2rem;
-    font-size: 22px;
-}
-.socials h3{
-    padding: 1.2rem;
-    font-size: 22px;
-}
-.socials .icons{
-    display: flex;
-    flex-direction: row;
-    gap: 1.4rem;
-    margin: 1.2rem;
-}
-.socials .icons i{
-    font-size: 35px;
-    cursor: pointer;
-}
-.socials .icons i:hover{
-    color: red;
+.car-types p:hover {
+  color: red;
+  padding-left: 13px;
 }
 
-.Copy{
-    background: black;
+.quick-links {
+  margin-top: 12px;
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
 }
-.copy-write{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background: black;
-    border-top: 1.5px solid grey;
+.quick-links h2 {
+  font-size: 26px;
+  padding: 0.6rem;
+  cursor: pointer;
 }
-.copy-write p{
-    font-size: 19px;
-    color: white;
+.quick-links div {
+  width: 65px;
+  height: 4px;
+  background: red;
+  margin-left: 10px;
 }
-.pay-methods{
-    display: flex;
-    flex-direction: row;
-    gap: 0.6rem;
+.quick-links p {
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
 }
-.pay-methods img{
-    width: 35px;
-    height: 35px;
+.quick-links p:hover {
+  color: red;
+  padding-left: 13px;
+}
+
+.contact-info {
+  margin-top: 12px;
+  display: flex;
+  flex: 1 1 300px;
+  flex-direction: column;
+}
+.contact-info h2 {
+  font-size: 26px;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+.contact-info .underline {
+  width: 65px;
+  height: 4px;
+  background: red;
+  margin-left: 10px;
+}
+.footer-contact .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.2rem;
+  gap: 1rem;
+  font-size: 18px;
+}
+.footer-contact .email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  padding: 1.2rem;
+  font-size: 18px;
+}
+.socials h3 {
+  padding: 1.2rem;
+  font-size: 21px;
+}
+.socials .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+  margin: 1.2rem;
+}
+.socials .icons i {
+  font-size: 35px;
+  cursor: pointer;
+}
+.socials .icons i:hover {
+  color: red;
+}
+
+.Copy {
+  background: black;
+}
+.copy-write {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: black;
+  border-top: 1.5px solid grey;
+}
+.copy-write p {
+  font-size: 19px;
+  color: white;
+}
+.pay-methods {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+}
+.pay-methods img {
+  width: 35px;
+  height: 35px;
 }
 
 @media (max-width: 1100px) {
-    .footer{
-        flex-wrap: wrap;
-    }
-    .copy-write{
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 8px;
-    }
+  .footer {
+    flex-wrap: wrap;
+    padding: 3rem 0.4rem;
+  }
+  .copy-write {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
 }
 
-@media(min-width: 1768px){
-    .Footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer{
-        max-width: 70%;
-    }
+@media (min-width: 1768px) {
+  .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    max-width: 70%;
+  }
 }

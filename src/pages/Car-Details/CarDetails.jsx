@@ -8,6 +8,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 
 import Hero from "../../Images/Car-details.jpg";
+import Booking from "../../Components/Booking/Booking";
 // import car1 from "../../Images/car-01.jpg";
 // import car2 from "../../Images/car-02.jpg";
 // import car3 from "../../Images/car-03.jpg";
@@ -62,6 +63,7 @@ const CarDetails = () => {
 
             <button>Check Availability</button>
           </div>
+          <Booking />
         </div>
 
       </div>
