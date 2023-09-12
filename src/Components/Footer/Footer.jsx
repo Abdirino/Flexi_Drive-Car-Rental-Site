@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="Footer">
         <div className="footer">
-          <div className="about-company">
+          <div className="section">
             <h2>About Us</h2>
             <div></div>
             <p>Our Company</p>
@@ -18,28 +18,25 @@ const Footer = () => {
             <p>Shop Toyota</p>
             <p>FlexiDrive Worldwide</p>
             <p>Virtual Auto Show</p>
-            <p>FlexiDrive Racing</p>
           </div>
 
-          <div className="car-types">
+          <div className="section">
             <h2>Vehicle Types</h2>
             <div></div>
             <p>All Vehicles</p>
             <p>SUVs</p>
             <p>Cars</p>
             <p>Trucks</p>
-            <p>Electric Vehicles</p>
             <p>Hybrids</p>
           </div>
 
-          <div className="quick-links">
+          <div className="section">
             <h2>Quick Links</h2>
             <div></div>
             <p>Accounts</p>
             <p>Campaign</p>
             <p>FlexiDrive Dealers</p>
             <p>Deals and Incentives</p>
-            <p>Financial Services</p>
             <p>Insurance</p>
           </div>
 

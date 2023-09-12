@@ -20,86 +20,34 @@
   color: white;
   text-align: start;
 }
-.about-company {
+
+.section{
   display: flex;
   flex: 1 1 300px;
   flex-direction: column;
   margin-top: 12px;
 }
-.about-company h2 {
-  font-size: 26px;
+.section h2{
+  font-size: 24px;
   padding: 0.6rem;
   cursor: pointer;
 }
-.about-company div {
+.section div{
   width: 65px;
   height: 4px;
   background: red;
   margin-left: 10px;
 }
-.about-company p {
-  font-size: 17px;
+.section p{
+  font-size: 15px;
   padding: 10px;
   cursor: pointer;
 }
-.about-company p:hover {
+.section p:hover{
   color: red;
   padding-left: 13px;
 }
 
-.car-types {
-  margin-top: 12px;
-  display: flex;
-  flex: 1 1 300px;
-  flex-direction: column;
-}
-.car-types h2 {
-  font-size: 26px;
-  padding: 0.6rem;
-  cursor: pointer;
-}
-.car-types div {
-  width: 65px;
-  height: 4px;
-  background: red;
-  margin-left: 10px;
-}
-.car-types p {
-  font-size: 17px;
-  padding: 10px;
-  cursor: pointer;
-}
-.car-types p:hover {
-  color: red;
-  padding-left: 13px;
-}
-
-.quick-links {
-  margin-top: 12px;
-  display: flex;
-  flex: 1 1 300px;
-  flex-direction: column;
-}
-.quick-links h2 {
-  font-size: 26px;
-  padding: 0.6rem;
-  cursor: pointer;
-}
-.quick-links div {
-  width: 65px;
-  height: 4px;
-  background: red;
-  margin-left: 10px;
-}
-.quick-links p {
-  font-size: 17px;
-  padding: 10px;
-  cursor: pointer;
-}
-.quick-links p:hover {
-  color: red;
-  padding-left: 13px;
-}
 
 .contact-info {
   margin-top: 12px;
@@ -108,7 +56,7 @@
   flex-direction: column;
 }
 .contact-info h2 {
-  font-size: 26px;
+  font-size: 24px;
   padding: 0.6rem;
   cursor: pointer;
 }
@@ -122,21 +70,21 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.2rem;
+  padding: 0.8rem;
   gap: 1rem;
-  font-size: 18px;
+  font-size: 15px;
 }
 .footer-contact .email {
   display: flex;
   align-items: center;
   gap: 1rem;
   flex-direction: row;
-  padding: 1.2rem;
-  font-size: 18px;
+  padding: 0.8rem;
+  font-size: 15px;
 }
 .socials h3 {
-  padding: 1.2rem;
-  font-size: 21px;
+  padding: 0.8rem;
+  font-size: 18px;
 }
 .socials .icons {
   display: flex;
@@ -145,7 +93,7 @@
   margin: 1.2rem;
 }
 .socials .icons i {
-  font-size: 35px;
+  font-size: 25px;
   cursor: pointer;
 }
 .socials .icons i:hover {
@@ -159,13 +107,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 2rem;
   background: black;
   border-top: 1.5px solid grey;
 }
 .copy-write p {
-  font-size: 19px;
+  font-size: 12px;
   color: white;
+  padding: 6px;
 }
 .pay-methods {
   display: flex;
@@ -173,8 +122,8 @@
   gap: 0.6rem;
 }
 .pay-methods img {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 
 @media (max-width: 1100px) {
