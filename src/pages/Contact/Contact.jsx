@@ -34,7 +34,7 @@ const Contact = () => {
           <span>
             <i class="fa-solid fa-clock"></i>
             <h2>Opening Hours</h2>
-            <p>Mon - Fri (9am - 5pm)</p>
+            <p>Mon - Fri ( 9am - 5pm )</p>
           </span>
         </div>
 

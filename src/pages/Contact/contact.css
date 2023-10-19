@@ -99,15 +99,18 @@ form{
 .form form input {
   width: 100%;
   border-radius: 3px;
-  padding: 15px 0;
+  padding: 15px;
   border: none;
   background: rgba(111, 153, 172, 0.2);
+  outline: none;
 }
 .form form textarea {
   width: 100%;
+  padding: 15px;
   border: none;
   background: rgba(133, 187, 211, 0.2);
   border-radius: 3px;
+  outline: none;
 }
 .form form button {
   width: 100%;
