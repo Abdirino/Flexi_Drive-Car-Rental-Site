@@ -18,6 +18,8 @@
 .A-image {
   display: flex;
   flex: 1 1 370px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .A-image img {
   width: 100%;
@@ -50,7 +52,7 @@
   color: grey;
 }
 .a-icons{
-  padding: 24px 0;
+  padding: 21px 0;
   display: flex;
   gap: 2.5rem;
 }

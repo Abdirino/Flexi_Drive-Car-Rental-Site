@@ -85,13 +85,13 @@ const Navbar = () => {
           </ul>
 
           <div className="btns">
-            <Link to='sign-in'>
+            <Link to='/sign-in'>
               <button className="signIn">
                 <i className="fa-regular fa-user"></i>
                 <p>Sign In</p>
               </button>
             </Link>
-            <Link to='sign-up'>
+            <Link to='/sign-up'>
               <button className="signUp">
                 <i className="fa-solid fa-lock"></i>
                 <p>Sign Up</p>

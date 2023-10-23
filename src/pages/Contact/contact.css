@@ -28,10 +28,6 @@
   background: red;
   transform: translateY(-12px);
 }
-.contact .contact-detail span:hover i{
-  background: white;
-  color: red;
-}
 .contact .contact-detail span i {
   font-size: 1.4rem;
   margin: 7px;
@@ -48,6 +44,13 @@
   font-size: 0.9rem;
   padding: 8px;
 }
+.contact .contact-detail span:hover i{
+  background: white;
+  color: red;
+}
+.contact-detail span:hover p, .contact-detail span:hover h2{
+  color: white;
+}
 
 .contact-form {
   margin: 3rem 0.6rem;
@@ -55,7 +58,7 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 2.5rem;
   border-radius: 2px;
 }
@@ -94,7 +97,8 @@ form{
   color: red;
 }
 .form form p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 .form form input {
   width: 100%;

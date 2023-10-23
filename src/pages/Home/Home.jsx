@@ -16,9 +16,9 @@ const Home = () => {
         <div className="home" id="home">
           <div className="home-dis">
             <div className="intro">
-              <h2>"Craft Your Ideal Journey Now"</h2>
+              <h2>"Craft Your Perfect Journey Now"</h2>
               <h1>
-                Find Your Best <span>Dream Car For Rental</span>
+                Find Your Ideal <span>Dream Car For Rental</span>
               </h1>
               <p>
                 When it comes to selecting the perfect dream car for rental, look
@@ -27,7 +27,7 @@ const Home = () => {
               </p>
               <div className="views">
                 <div className="view">
-                  <Link to='/car-listing' style={{ color: "white" }}><span>View all cars</span></Link>
+                  <Link to='/car-listing' style={{ color: "white" }}><span>Explore all cars</span></Link>
                   <i className="fa-solid fa-arrow-right"></i>
                 </div>
               </div>

@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.App p{
+  font-weight: lighter;
+}
 
 ::-webkit-scrollbar{
   width: 12px !important;
