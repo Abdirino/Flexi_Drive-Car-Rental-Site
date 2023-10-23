@@ -4,10 +4,12 @@ import creditCard1 from '../../Images/icons8-credit-card-48 (1).png';
 import creditCard2 from '../../Images/icons8-credit-card-48.png';
 import creditCard3 from '../../Images/icons8-mastercard-48.png';
 import creditCard4 from '../../Images/icons8-visa-48.png';
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
   return (
     <>
+    <ScrollToTop smooth top={20} color="red"/>
       <div className="Footer">
         <div className="footer">
           <div className="section">
