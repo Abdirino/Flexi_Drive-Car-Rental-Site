@@ -54,7 +54,7 @@
 .a-icons{
   padding: 21px 0;
   display: flex;
-  gap: 2.5rem;
+  gap: 1.4rem;
 }
 .a-icon{
   display: flex;
@@ -67,12 +67,12 @@
   color: red;
 }
 .a-icon h4 span{
-  font-size: 17px;
+  font-size: 14px;
   color: grey;
-  font-weight: 500;
+  font-weight: 300;
 }
 .a-icon i{
-  font-size: 45px;
+  font-size: 35px;
   color: red;
 }
 

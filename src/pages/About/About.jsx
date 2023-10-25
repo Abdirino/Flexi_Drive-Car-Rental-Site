@@ -20,20 +20,20 @@ const About = () => {
           <div className="A-detail">
             <h3>About our Company</h3>
             <h1>
-              Engage the engine, <span>Fuel Your Journey</span> with
-              Unforgettable Experiences.
+              We offer customers a wide range of <span>commercial cars</span>{" "}
+              and <span>luxury cars</span> for any occasion.
             </h1>
             <p>
-              Step into a world of endless exploration. Our well-maintained
-              vehicles offer comfort and reliability for your adventures, from
-              scenic country roads to majestic mountain passes. Your trusted
-              companions for every journey.
+              At FlexiDrive, we are dedicated to providing exceptional car
+              rental services to our valued customers. With a commitment to
+              quality, convenience, and customer satisfaction, we strive to make
+              every rental experience a seamless and enjoyable one.
             </p>
             <div className="a-icons">
               <div className="a-icon">
                 <i class="fa-solid fa-car-side"></i>
                 <h4>
-                  20 <span>Car types</span>
+                  42 <span>Car types</span>
                 </h4>
               </div>
               <div className="a-icon">
@@ -45,7 +45,7 @@ const About = () => {
               <div className="a-icon">
                 <i class="fa-solid fa-screwdriver-wrench"></i>
                 <h4>
-                  25 <span>Repair Stations</span>
+                  325 <span>Repair Stations</span>
                 </h4>
               </div>
             </div>
@@ -55,6 +55,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Pricing />
 
       <div className="about">
         <div className="head">
@@ -106,7 +108,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Pricing />
       <Footer />
     </>
   );
