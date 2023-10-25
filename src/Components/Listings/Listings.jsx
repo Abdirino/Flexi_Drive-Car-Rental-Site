@@ -11,41 +11,57 @@ import McLaren from "../../Images/icons8-mclaren-100.png";
 import Car1 from "../../Images/car-01.jpg";
 import Car5 from "../../Images/car-05.jpg";
 import Car3 from "../../Images/car-03.jpg";
+import RevealUp from "../Reveal/RevealUp";
+import RevealRight from "../Reveal/RevealRight";
 
 const Listings = () => {
   return (
     <div className="listings">
-      <div className="head">
-        <h1>Explore Most Popular Cars</h1>
-        <div></div>
-        <div></div>
-      </div>
+      <RevealUp>
+        <div className="head">
+          <h1>Explore Most Popular Cars</h1>
+          <div></div>
+          <div></div>
+        </div>
+      </RevealUp>
 
       <div className="car-logo">
-        <div className="logo">
-          <img src={Tesla} alt="Tesla Logo" />
-          <p>Tesla</p>
-        </div>
-        <div className="logo">
-          <img src={Mitsubishi} alt="Tesla Logo" />
-          <p>Mitsubishi</p>
-        </div>
-        <div className="logo">
-          <img src={Jeep} alt="Tesla Logo" />
-          <p>Jeep</p>
-        </div>
-        <div className="logo">
-          <img src={Toyota} alt="Tesla Logo" />
-          <p>Toyota</p>
-        </div>
-        <div className="logo">
-          <img src={Infiniti} alt="Tesla Logo" />
-          <p>Infiniti</p>
-        </div>
-        <div className="logo">
-          <img src={McLaren} alt="Tesla Logo" />
-          <p>McLaren</p>
-        </div>
+        <RevealRight>
+          <div className="logo">
+            <img src={Tesla} alt="Tesla Logo" />
+            <p>Tesla</p>
+          </div>
+        </RevealRight>
+        <RevealRight>
+          <div className="logo">
+            <img src={Mitsubishi} alt="Tesla Logo" />
+            <p>Mitsubishi</p>
+          </div>
+        </RevealRight>
+        <RevealRight>
+          <div className="logo">
+            <img src={Jeep} alt="Tesla Logo" />
+            <p>Jeep</p>
+          </div>
+        </RevealRight>
+        <RevealRight>
+          <div className="logo">
+            <img src={Toyota} alt="Tesla Logo" />
+            <p>Toyota</p>
+          </div>
+        </RevealRight>
+        <RevealRight>
+          <div className="logo">
+            <img src={Infiniti} alt="Tesla Logo" />
+            <p>Infiniti</p>
+          </div>
+        </RevealRight>
+        <RevealRight>
+          <div className="logo">
+            <img src={McLaren} alt="Tesla Logo" />
+            <p>McLaren</p>
+          </div>
+        </RevealRight>
       </div>
 
       <div className="car-list">
@@ -109,7 +125,6 @@ const Listings = () => {
             </div>
           </Link>
         </div>
-
         <div className="car">
           <div className="image">
             <img src={Car5} alt="" />
@@ -170,7 +185,6 @@ const Listings = () => {
             </div>
           </Link>
         </div>
-
         <div className="car">
           <div className="image">
             <img src={Car3} alt="" />
@@ -233,12 +247,14 @@ const Listings = () => {
         </div>
       </div>
 
-      <div className="view">
-        <Link to="/car-listing" style={{ color: "white" }}>
-          <span>View all cars</span>
-        </Link>
-        <i className="fa-solid fa-arrow-right"></i>
-      </div>
+      <RevealRight>
+        <div className="view">
+          <Link to="/car-listing" style={{ color: "white" }}>
+            <span>View all cars</span>
+          </Link>
+          <i className="fa-solid fa-arrow-right"></i>
+        </div>
+      </RevealRight>
     </div>
   );
 };

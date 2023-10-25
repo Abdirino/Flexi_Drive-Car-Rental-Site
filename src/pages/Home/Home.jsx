@@ -46,9 +46,11 @@ const Home = () => {
             </div>
           </div>
 
-            <div className="home-img">
+          <div className="home-img">
+            <RevealUp>
               <img src={HomeImg} alt="Lambo-Home" loading="lazy" />
-            </div>
+            </RevealUp>
+          </div>
         </div>
       </div>
       <Listings />

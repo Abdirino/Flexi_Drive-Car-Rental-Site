@@ -15,6 +15,7 @@ import Car8 from "../../Images/car-08.jpg";
 import Car6 from "../../Images/car-06.jpg";
 import Car4 from "../../Images/car-04.jpg";
 import { Link } from "react-router-dom";
+import RevealUp from "../../Components/Reveal/RevealUp";
 
 const CarListing = () => {
   return (
@@ -24,19 +25,23 @@ const CarListing = () => {
         <img src={CarHero} alt="" />
       </div>
 
-      <div className="head">
-        <h1>Discover Most Popular Cars</h1>
-        <div></div>
-        <div></div>
-      </div>
+      <RevealUp>
+        <div className="head">
+          <h1>Choose Your Dream Car</h1>
+          <div></div>
+          <div></div>
+        </div>
+      </RevealUp>
 
       <div className="car-listing">
         <div className="para">
-          <p>
-            Determining the most popular cars requires considering various
-            factors such as sales figures, market demand, and consumer
-            preferences.
-          </p>
+          <RevealUp>
+            <p>
+              Determining your dream car requires considering various
+              factors such as sales figures, market demand, and consumer
+              preferences.
+            </p>
+          </RevealUp>
         </div>
 
         <div className="Cars"></div>
@@ -94,7 +99,7 @@ const CarListing = () => {
                 $450 <span>/per Day</span>
               </h3>
             </div>
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -155,7 +160,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -216,7 +221,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -277,7 +282,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -338,7 +343,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -399,7 +404,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -460,7 +465,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -521,7 +526,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>
@@ -582,7 +587,7 @@ const CarListing = () => {
               </h3>
             </div>
 
-            <Link to='/car-details'>
+            <Link to="/car-details">
               <div className="rent">
                 <h2>Rent Now</h2>
               </div>

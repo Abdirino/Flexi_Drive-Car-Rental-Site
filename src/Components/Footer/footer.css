@@ -28,7 +28,7 @@
   margin-top: 12px;
 }
 .section h2{
-  font-size: 24px;
+  font-size: 29px;
   padding: 0.6rem;
   cursor: pointer;
 }
@@ -39,7 +39,7 @@
   margin-left: 10px;
 }
 .section p{
-  font-size: 15px;
+  font-size: 17px;
   padding: 10px;
   cursor: pointer;
 }
@@ -56,7 +56,7 @@
   flex-direction: column;
 }
 .contact-info h2 {
-  font-size: 24px;
+  font-size: 29px;
   padding: 0.6rem;
   cursor: pointer;
 }
@@ -72,7 +72,7 @@
   align-items: center;
   padding: 0.8rem;
   gap: 1rem;
-  font-size: 15px;
+  font-size: 17px;
 }
 .footer-contact .email {
   display: flex;
@@ -80,7 +80,7 @@
   gap: 1rem;
   flex-direction: row;
   padding: 0.8rem;
-  font-size: 15px;
+  font-size: 17px;
 }
 .socials h3 {
   padding: 0.8rem;
@@ -93,7 +93,7 @@
   margin: 1.2rem;
 }
 .socials .icons i {
-  font-size: 25px;
+  font-size: 35px;
   cursor: pointer;
 }
 .socials .icons i:hover {
@@ -113,7 +113,7 @@
   border-top: 1.5px solid grey;
 }
 .copy-write p {
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   padding: 6px;
 }
@@ -123,8 +123,8 @@
   gap: 0.6rem;
 }
 .pay-methods img {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
 }
 
 @media (max-width: 1100px) {

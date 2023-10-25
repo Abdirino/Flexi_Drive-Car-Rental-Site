@@ -4,6 +4,8 @@ import "./pricing.css";
 import StoreIMG from "../../Images/Flexi_Store IMG.png";
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
+import RevealUp from "../Reveal/RevealUp";
+import RevealRight from "../Reveal/RevealRight";
 
 const Pricing = () => {
   const [counterOn, setCounterOn] = useState(false);
@@ -83,36 +85,46 @@ const Pricing = () => {
 
       <div className="application">
         <div className="details">
-          <h1>FlexiDrive User Friendly App Available</h1>
-          <p>
-            Appropriately monetize one-to-one interfaces rather than
-            cutting-edge Competently disintermediation backward.
-          </p>
+          <RevealUp>
+            <h1>FlexiDrive User Friendly App Available</h1>
+          </RevealUp>
+          <RevealUp>
+            <p>
+              Appropriately monetize one-to-one interfaces rather than
+              cutting-edge Competently disintermediation backward.
+            </p>
+          </RevealUp>
           <div className="buttons">
-            <span className="store-btn">
-              <div className="store-icon">
-                <i class="fa-brands fa-google-play"></i>
-              </div>
-              <div className="text">
-                <p>Get it on</p>
-                <h3>Google Play</h3>
-              </div>
-            </span>
-            <span className="store-btn">
-              <div className="store-icon">
-                <i class="fa-brands fa-app-store"></i>
-              </div>
-              <div className="text">
-                <p>Get it on</p>
-                <h3>App Store</h3>
-              </div>
-            </span>
+            <RevealRight>
+              <span className="store-btn">
+                <div className="store-icon">
+                  <i class="fa-brands fa-google-play"></i>
+                </div>
+                <div className="text">
+                  <p>Get it on</p>
+                  <h3>Google Play</h3>
+                </div>
+              </span>
+            </RevealRight>
+            <RevealRight>
+              <span className="store-btn">
+                <div className="store-icon">
+                  <i class="fa-brands fa-app-store"></i>
+                </div>
+                <div className="text">
+                  <p>Get it on</p>
+                  <h3>App Store</h3>
+                </div>
+              </span>
+            </RevealRight>
           </div>
         </div>
 
-        <div className="image">
-          <img src={StoreIMG} alt="" />
-        </div>
+          <div className="image">
+        <RevealRight>
+            <img src={StoreIMG} alt="" />
+        </RevealRight>
+          </div>
       </div>
     </>
   );

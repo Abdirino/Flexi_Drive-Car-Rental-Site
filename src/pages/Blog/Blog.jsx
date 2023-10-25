@@ -12,6 +12,7 @@ import blog4 from "../../Images/blog-4.jpg";
 import blog5 from "../../Images/blog-5.jpg";
 import blog6 from "../../Images/blog-6.jpg";
 import Avatar13 from "../../Images/avatar-13.jpg";
+import RevealUp from "../../Components/Reveal/RevealUp";
 
 const Blog = () => {
   return (
@@ -20,16 +21,16 @@ const Blog = () => {
       <div className="hero">
         <img src={BlogHero} alt="" />
       </div>
-
-      <div className="head">
-        <h1> Our Blogs</h1>
-        <div></div>
-        <div></div>
-      </div>
+      <RevealUp>
+        <div className="head">
+          <h1> Our Blogs</h1>
+          <div></div>
+          <div></div>
+        </div>
+      </RevealUp>
 
       <div className="blog">
         <div className="B-blog">
-
           <div className="Blog">
             <div className="b-image">
               <img src={blog1} alt="" />
