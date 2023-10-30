@@ -3,8 +3,6 @@ import "./blog.css";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 
-import BlogHero from "../../Images/Blog-Hero.jpg";
-
 import blog1 from "../../Images/blog-1.jpg";
 import blog2 from "../../Images/blog-2.jpg";
 import blog3 from "../../Images/blog-3.jpg";
@@ -18,18 +16,15 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <div className="hero">
-        <img src={BlogHero} alt="" />
-      </div>
-      <RevealUp>
-        <div className="head">
-          <h1> Our Blogs</h1>
-          <div></div>
-          <div></div>
-        </div>
-      </RevealUp>
 
       <div className="blog">
+        <RevealUp>
+          <div className="head">
+            <h1> Our Blogs</h1>
+            <div></div>
+            <div></div>
+          </div>
+        </RevealUp>
         <div className="B-blog">
           <div className="Blog">
             <div className="b-image">

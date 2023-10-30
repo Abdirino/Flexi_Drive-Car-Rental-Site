@@ -3,8 +3,6 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./contact.css";
 
-import ContactHero from "../../Images/Conatct-Hero.jpg";
-
 import contactIMG from "../../Images/contact-form.jpg";
 import RevealRight from "../../Components/Reveal/RevealRight";
 
@@ -12,9 +10,6 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="hero">
-        <img src={ContactHero} alt="" />
-      </div>
       <div className="contact">
         <div className="contact-detail">
           <RevealRight>

@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./about.css";
-import AboutHero from "../../Images/AboutHero.jpg";
 import Pricing from "../../Components/Pricing/Pricing";
 
 import AboutIMG from "../../Images/about_image.jpg";
@@ -13,9 +12,6 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="hero">
-        <img src={AboutHero} alt="" />
-      </div>
 
       <div className="a-resize">
         <div className="About">

@@ -37,9 +37,12 @@ const CarListing = () => {
         <div className="para">
           <RevealUp>
             <p>
-              Determining your dream car requires considering various
-              factors such as sales figures, market demand, and consumer
-              preferences.
+              Selecting the dream car that perfectly aligns with your personal
+              tastes and desires is a multifaceted process that involves an
+              array of crucial considerations. Beyond the sheer appeal of a
+              car's design or its horsepower, delving into the finer details,
+              such as sales figures, market demand, and consumer preferences,
+              can significantly enrich your decision-making process.
             </p>
           </RevealUp>
         </div>

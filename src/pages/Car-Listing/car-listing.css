@@ -8,7 +8,7 @@
 }
 .hero {
   width: 100%;
-  height: 35vh !important;
+  height: 39vh !important;
   padding: 0 !important;
 }
 .hero img {
@@ -42,12 +42,10 @@
   margin: 1rem;
   cursor: pointer;
 }
-
-.para{
-  padding: 10px;
-}
 .para p{
-  font-size: 22px;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  font-weight: bold;
 }
 
 .next{
