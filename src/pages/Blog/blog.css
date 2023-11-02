@@ -113,9 +113,6 @@
   .B-blog .Blog {
     width: 100%;
   }
-  .blog {
-    padding: 2.5rem 0;
-  }
 }
 
 @media(min-width: 1768px) {

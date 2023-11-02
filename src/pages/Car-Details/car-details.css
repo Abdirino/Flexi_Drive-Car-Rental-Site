@@ -56,20 +56,31 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
 }
-.Detail-specs{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start !important;
-  text-align: center;
+.car-slider img{
+  object-fit: contain;
 }
-.d-spec{
+.Detail-specs {
   display: flex;
-  gap: 2.4rem;
+  /* flex-direction: column; */
+  justify-content: space-between !important;
+  /* align-items: center; */
 }
-.d-spec p{
+.D-spec h1, .D-Features h1{
+  padding: 1rem 0;
+  text-decoration: underline red;
+}
+.d-spec {
+  display: flex;
+  gap: 1.7rem;
+  align-items: start;
+}
+.d-spec i{
+  color: green;
+}
+.d-spec p {
   font-weight: lighter;
 }
-.d-spec span{
+.d-spec span {
   font-weight: bolder;
 }
 .car-application {
@@ -132,10 +143,16 @@
     justify-content: center;
     align-items: center;
   }
+  .car-slider{
+    width: 100%;
+  }
   .car-scroll {
     width: 100%;
   }
   .car-application {
     width: 100%;
+  }
+  .Detail-specs{
+    flex-wrap: wrap;
   }
 }

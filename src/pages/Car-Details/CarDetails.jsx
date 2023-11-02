@@ -78,29 +78,55 @@ const CarDetails = () => {
                 <img src={car6} alt="" />
               </SplideSlide>
               <SplideSlide>
-                <img src={car6} alt="" />
-              </SplideSlide>
-              <SplideSlide>
                 <img src={car7} alt="" />
               </SplideSlide>
             </Splide>
             <div className="Detail-specs">
-              <h1>Specifications</h1>
-              <div className="d-spec">
-                <p>Body</p>
-                <span>Ferrari</span>
+              <div className="D-spec">
+                <h1>Specifications</h1>
+                <div className="d-spec">
+                  <p>Body  →</p>
+                  <span>Ferrari</span>
+                </div>
+                <div className="d-spec">
+                  <p>Seats  →</p>
+                  <span>2 Seats</span>
+                </div>
+                <div className="d-spec">
+                  <p>Luggage →</p>
+                  <span>170</span>
+                </div>
+                <div className="d-spec">
+                  <p>Engine  →</p>
+                  <span>3000</span>
+                </div>
+                <div className="d-spec">
+                  <p>Year →</p>
+                  <span>2020</span>
+                </div>
               </div>
-              <div className="d-spec">
-                <p>Seats</p>
-                <span>2 Seats</span>
-              </div>
-              <div className="d-spec">
-                <p>Laguege</p>
-                <span>170</span>
-              </div>
-              <div className="d-spec">
-                <p>Engine</p>
-                <span>3000</span>
+              <div className="D-Features">
+                <h1>Features</h1>
+                <div className="d-spec">
+                  <i class="fa-solid fa-square-check"></i>
+                  <span>Bluetooth</span>
+                </div>
+                <div className="d-spec">
+                  <i class="fa-solid fa-square-check"></i>
+                  <span>Multi Media</span>
+                </div>
+                <div className="d-spec">
+                  <i class="fa-solid fa-square-check"></i>
+                  <span>Sunroof</span>
+                </div>
+                <div className="d-spec">
+                  <i class="fa-solid fa-square-check"></i>
+                  <span>Central Lock</span>
+                </div>
+                <div className="d-spec">
+                  <i class="fa-solid fa-square-check"></i>
+                  <span>Automatic</span>
+                </div>
               </div>
             </div>
           </div>
