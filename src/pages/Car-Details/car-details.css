@@ -42,30 +42,46 @@
 .car-app {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 1 400px;
-  gap: 0.8rem;
+  /* align-items: center; */
+  flex: 1 1 450px;
+  gap: 1rem;
+  padding: 3rem 0;
 }
-.car-scroll {
-  width: 60%;
-  padding: 1.6rem;
+.car-slider {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: auto;
+  padding: 0.6rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  margin: 20px 0;
+}
+.Detail-specs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  text-align: center;
+}
+.d-spec{
+  display: flex;
+  gap: 2.4rem;
+}
+.d-spec p{
+  font-weight: lighter;
+}
+.d-spec span{
+  font-weight: bolder;
 }
 .car-application {
-  width: 82%;
-  padding: 2.1rem;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
-  margin: 20px 0;
+  width: 55%;
+  padding: 10px 1rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
   text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  height: 655px;
 }
 .car-application .head {
   display: flex;
