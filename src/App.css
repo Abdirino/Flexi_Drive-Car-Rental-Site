@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 .App {
   text-align: center;
 }
-.App p{
-  font-weight: lighter;
+.App h1, h2, h3, h4, span{
+  font-weight: bold !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+}
+.App p, li{
+  font-family: 'Poppins', sans-serif !important;
 }
 
 ::-webkit-scrollbar{

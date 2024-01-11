@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +5,7 @@
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Mochiy Pop One', sans-serif !important;
 }
 .header {
   width: 100%;
